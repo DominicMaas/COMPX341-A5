@@ -4,11 +4,11 @@ services:
     build: .
     ports:
       - '5000:5000'
-    cpus: 0.1
-    mem_limit: 128M
+    #cpus: 0.1
+    #mem_limit: 128M
     restart: on-failure
   redis:
     image: 'redis:alpine'
-    cpus: 0.1
-    mem_limit: 128M
+    #cpus: 0.1
+    #mem_limit: 128M
     restart: on-failure
