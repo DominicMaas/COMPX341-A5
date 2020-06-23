@@ -55,6 +55,12 @@ def is_number_prime(number):
 
     return True
 
+# Route for /clear
+# This clears everything from the cache, useful for testing
+@app.route('/clear')
+def clear_route():
+    cache.delete('numbers')
+    return 'Cleared!'
 
 # Route for /isPrime/<number>
 @app.route('/isPrime/<int:number>')
