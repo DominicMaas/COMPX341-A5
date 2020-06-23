@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+isPrime/2147483647,9003,333,28,380,18.33,0.000%,149.25398,25.07,19.82,172.0
+TOTAL,9003,333,28,380,18.33,0.000%,149.25398,25.07,19.82,172.0
